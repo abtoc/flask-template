@@ -1,5 +1,8 @@
 from datetime import datetime
 from flaskr import db
+# Python3&MySQL
+#import pymysql
+#pymysql.install_as_MySQLdb()
 
 def _get_now():
   return datetime.now()
